@@ -1,0 +1,53 @@
+@media screen and (max-device-width: 640px) {
+  #field-value-short_desc {
+    width: 95%;
+  }
+
+  .module-latch {
+    padding: 6px 10px;
+  }
+
+  .module .fields-lhs,
+  .module .fields-rhs {
+    width: 100%;
+    display: block;
+    margin: 1em 0;
+  }
+
+  button.minor,
+  button.major {
+    font-size: 12px;
+    padding: 6px 14px;
+  }
+
+  #bugzilla-body {
+    max-width: 100%;
+    min-width: 100% !important;
+    overflow: hidden;
+  }
+
+  #summary-container,
+  #mode-container {
+    display: block;
+  }
+
+  .attach-patch {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted silver;
+  }
+
+  .attach-patch > td {
+    background-image: linear-gradient(to right, #ffc, #fff);
+    border-bottom: none !important;
+  }
+
+  #attachments td {
+    border-bottom: none !important;
+  }
+
+  .attach-desc-td {
+    width: auto !important;
+  }
+
+}

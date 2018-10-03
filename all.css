@@ -1,0 +1,40 @@
+@media screen and (max-device-width: 640px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 4px;
+  }
+
+  #moz_tab {
+    display: none;
+  }
+
+  .links .dropdown li {
+    font-size: 14px;
+    padding: 14px;
+  }
+
+  #header {
+    margin: 0;
+  }
+
+  #titles {
+    padding: 0;
+  }
+
+  .quicksearch_check_empty {
+    margin: 1em 0;
+    display: flex !important;
+    justify-content: space-between;
+  }
+
+  #quicksearch_top {
+    flex-grow: 1;
+    margin-right: 1em;
+  }
+
+  #footer ul.links li {
+    display: block;
+    padding: 0.5em;
+  }
+}
